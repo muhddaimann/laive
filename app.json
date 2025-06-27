@@ -7,6 +7,9 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "platforms": [
+      "web"
+    ],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -24,6 +27,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "muhddaimann",
+    "extra": {
+      "eas": {
+        "projectId": "3a43a845-6a9a-457b-89ec-87c02e80f211"
+      }
     }
   }
 }

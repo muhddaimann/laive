@@ -1,0 +1,63 @@
+voice-bot/
+├─ assets/
+├─ app/
+│  ├─ _layout.tsx
+│  └─ index.tsx
+├─ components/
+│  └─ text.tsx
+├─ constants/
+│  ├─ color.ts
+│  └─ theme.ts
+├─ contexts/
+│  └─ themeContext.ts
+├─ hooks/
+├─ app.json
+├─ index.ts
+├─ package-lock.json
+├─ package.json
+└─ tsconfig.json
+
+tech used
+├─ framework
+│  ├─ expo (universal app platform)
+│  ├─ expo-router (file-based routing for web)
+│  ├─ react-native (core components)
+│  ├─ react-native-web (render React Native for web)
+│  ├─ typescript (static typing + DX)
+│
+├─ styling
+│  ├─ react-native-paper (Material Design UI kit)
+│  ├─ react-native StyleSheet (inline component styles)
+│  ├─ CSS-like styling using px/rem (web-friendly sizing)
+│
+├─ icons
+│  ├─ @expo/vector-icons
+│  │  ├─ MaterialCommunityIcons (used in Paper and UI)
+│
+├─ state & context
+│  ├─ useState, useContext (core React state)
+│  ├─ custom ThemeContext (for dark/light mode)
+│
+├─ voice features (planned)
+│  ├─ Mic input via Web Audio API or Expo AV (if web-compatible)
+│  ├─ Whisper API / OpenAI (for transcription and response)
+│  ├─ optional: streaming or VAD libraries (WebRTC, Deepgram, etc.)
+│
+├─ deployment
+│  ├─ EAS Hosting (Expo static hosting for web)
+│  ├─ GitHub (version control)
+
+
+Records audio using push-to-talk.
+
+Streams audio to the backend in real time.
+
+Displays the bots responses.
+
+Converts voice to text using Whisper.
+
+Uses OpenAI GPT for generating answers.
+
+Does RAG by retrieving info from a Vector DB (Chroma).
+
+Sends back answers to the frontend as they stream.

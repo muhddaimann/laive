@@ -1,18 +1,24 @@
 {
   "name": "voice-bot",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "dev": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
     "expo": "~53.0.12",
+    "expo-router": "^5.1.0",
+    "expo-secure-store": "^14.2.3",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.4"
+    "react-dom": "19.0.0",
+    "react-native": "0.79.4",
+    "react-native-paper": "^5.14.5",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-web": "^0.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
