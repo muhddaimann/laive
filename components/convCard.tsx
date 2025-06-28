@@ -84,7 +84,7 @@ export default function ConvCard() {
 const styles = StyleSheet.create({
   card: {
     width: 400,
-    height: 400,
+    height: 500,
     borderRadius: 16,
     borderWidth: 1,
     overflow: "hidden",

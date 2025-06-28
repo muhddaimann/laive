@@ -92,7 +92,7 @@ export default function ActionBar() {
 const styles = StyleSheet.create({
   container: {
     position: "absolute",
-    bottom: 16,
+    bottom: 64,
     alignSelf: "center",
     flexDirection: "row",
     gap: 16,

@@ -66,7 +66,7 @@ export default function ConsoleCard() {
 const styles = StyleSheet.create({
   card: {
     width: 400,
-    height: 300,
+    height: 200,
     borderRadius: 16,
     borderWidth: 1,
     overflow: "hidden",

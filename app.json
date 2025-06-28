@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "voice-bot",
-    "slug": "voice-bot",
+    "name": "laive",
+    "slug": "laive",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -31,7 +31,7 @@
     "owner": "muhddaimann",
     "extra": {
       "eas": {
-        "projectId": "3a43a845-6a9a-457b-89ec-87c02e80f211"
+        "projectId": "3fd5db0a-fc06-4f05-8ede-15e696658b04"
       }
     }
   }

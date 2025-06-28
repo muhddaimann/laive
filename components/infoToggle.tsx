@@ -23,7 +23,7 @@ export default function InfoToggle() {
 
       <AppAlert
         visible={visible}
-        title="Voice Bot"
+        title="Laive"
         message="Version 1.0.0"
         confirmText="OK"
         onConfirm={() => setVisible(false)}
